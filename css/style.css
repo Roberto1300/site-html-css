@@ -1,0 +1,42 @@
+body { /* Configuração do corpo da página */
+    margin: 0; /* Sem margem externa dos elementos */
+    padding: 0; /* Sem margem interna dos elementos */ 
+    font-size: 16px; /* Tamnanho da fonte */
+    background-color: violet; /* Cor do fundo */
+}
+
+header {
+    background-color: lightblue; /* Cor do fundo */
+
+}
+
+header h1 { /* Configuração do título do rodapé */
+    text-align: center; /* Alinhamento do texto centralizado */
+}
+
+img {
+    display: block; 
+    /* Transforma a imagem de inline para inblock que permite a centralização com o margin */
+    margin: auto; 
+    /* Centraliza o elemento distribuindo igualmente o espaço vazio */
+    height: 450px; /* Tamanho da imagem */
+    border-radius: 20px; /*Borda da imagem*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Tempo de Transição para aumentar a imagem e aplicar uma borda */
+}
+
+img:hover { /* Hover - Assim que o mouse passar sobre a imagem ele aplica a transição */
+    box-shadow: 0 0 5px 5px lightblue; 
+    transform: scale(1.05);
+}
+
+footer p { /* Configuração dos paragrafos do rodapé */
+    text-align: left; /* Alinhamento a esquerda */
+    margin-left: 20px; /* Margem externa a esquerda */
+    margin-bottom: 0; /* Margem externa inferior 0 */
+
+}
+
+footer { /* Configuração do rodapé */
+    background-color: sandybrown; /* Cor do fundo */
+
+}
